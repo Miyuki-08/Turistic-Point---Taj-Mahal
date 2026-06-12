@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    font-family: serif;
+    color: #000;
+    overflow-x: hidden;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 40vw 60vw 0;
+    margin-bottom: 3rem;
+}
+
+#filter{
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(230, 230, 230));
+    top: 0;
+    left: 0;
+}
+
+main h1{
+    font-size: 3rem;
+}
+
+.loveText{
+    padding: 5rem 3rem 0 3rem;
+    z-index: 100;
+}
+
+.loveText span, .loveText h2{
+    color: darksalmon;
+    margin: 1rem 1rem 1rem 0;
+}
+
+main .image{
+    width: auto;
+    height: 100%;
+    background-image: url(assets/casal.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+#history{
+    width: 100vw;
+    margin: 2rem;
+
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+}
+
+#history img{
+    width: 100%;
+    max-width: 50vw;
+    height: auto;
+}
+
+#history span{
+    color: darksalmon;
+    font-size: 2rem;
+}
+
+#history h3{
+    margin: 1rem 0;
+}
+
+#history p{
+    width: 80%;
+    padding-bottom: 2rem;
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#infos span, #infos h3, #infos p{
+    text-align: center;
+}
+
+#infos span{
+    color: darksalmon;
+    font-size: 3rem;
+}
+
+#infos h3{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#infos img{
+    width: 80vw;
+    height: auto;
+    margin: 2rem 10vw;
+    filter: contrast(0.4);
+}
+
+.line{
+    width: 90vw;
+    height: 1px;
+    background-color: gray;
+    margin: 0 5vw;
+}
+
+footer{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+footer p{
+    font-size: 0.8rem;
+    color: gray;
+    margin: 0.5rem 0;
+}
